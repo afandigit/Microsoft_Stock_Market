@@ -4,17 +4,11 @@
 <img align="right"  width="400" src="https://github.com/afandigit/Microsoft_Stock_Market/assets/106676180/23d0bcb7-718c-47b9-b111-c82d38e86aab" alt="stock market" /> 
 <img align="left"  width="400" src="https://github.com/afandigit/Microsoft_Stock_Market/assets/106676180/c9649078-26cf-4066-a6bd-801e81eb03ed" alt="stock market" /> 
 
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
+</br></br></br></br></br>
+</br></br></br></br></br>
 
 <h2>Goal :</h2>
+
 The study aims to develop a model using machine learning methods to <b>analyze stock trading risks</b> and <b>make informed decisions</b> on <b>whether to stay in the market or exit</b>, essentially determining whether to buy or sell stocks.
 
 
@@ -47,8 +41,8 @@ The study aims to develop a model using machine learning methods to <b>analyze s
 
 <h2>Stock Price Information</h2>
 
-    <div class="section">
-      <h3>1. The <strong>Open</strong> Price</h3>
+    <div>
+      <b>The <strong>Open</strong> Price</b>
       <p>
         The <strong>Open</strong> price represents <em>the price</em> at which
         <strong>a stock was first traded</strong> during the current trading
