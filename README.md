@@ -7,6 +7,12 @@
 </br>
 </br>
 </br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
 
 <h2>Goal :</h2>
 The study aims to develop a model using machine learning methods to <b>analyze stock trading risks</b> and <b>make informed decisions</b> on <b>whether to stay in the market or exit</b>, essentially determining whether to buy or sell stocks.
