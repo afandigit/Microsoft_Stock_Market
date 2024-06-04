@@ -30,8 +30,6 @@ The study aims to develop a model using machine learning methods to <b>analyze s
 
 <h4>After zooming in on a specific time range</h4>
 
-<img align="center"  width="1000" src="https://github.com/afandigit/Microsoft_Stock_Market/assets/106676180/c8ef6270-999a-45dc-b603-3c46f091973e" alt="dataset" />
-
 <img align="center"  width="800" src="https://github.com/afandigit/Microsoft_Stock_Market/assets/106676180/d8a6e2ac-6879-420e-b599-87734bbdf2db" alt="Last 100 records" />
 
 <h4>Candlestick charts for the same the last range time</h4>
@@ -88,35 +86,26 @@ The study aims to develop a model using machine learning methods to <b>analyze s
           3- The <strong>High</strong> and <strong>Low</strong> prices give an
           idea of
           <strong>the market volatility for the stock in question</strong>.
-          <ul>
-            <li>
-              - If the <i>spread</i> between the High and Low prices
+
+          - If the <i>spread</i> between the High and Low prices
               <strong>is large</strong>, it indicates that the stock experienced
               <strong>high volatility</strong> during the trading session.
-            </li>
-            <li>
-              - If the <i>spread</i> is <strong>small</strong>, it indicates
+              
+          - If the <i>spread</i> is <strong>small</strong>, it indicates
               that the stock experienced <strong>low volatility</strong>.
-            </li>
-          </ul>
         </li>
       </ul>
 
 
 
 <h4>Bullish Trand Vs. Bearish Trand</h4>
-<img align="left"  width="450" src="https://github.com/afandigit/Microsoft_Stock_Market/assets/106676180/ed5bfe04-4cb3-44ee-8b4a-b83051f4fee5" alt="Bullish" /> 
 
-<img align="right"  width="450" src="https://github.com/afandigit/Microsoft_Stock_Market/assets/106676180/c9649078-26cf-4066-a6bd-801e81eb03ed" alt="Bearish" /> 
+<img align="left"  width="450" src="https://github.com/afandigit/Microsoft_Stock_Market/assets/106676180/7dc44d40-60e8-4227-9f73-489c52ffd799" alt="bullish" /> 
 
+<img align="right"  width="450" src="https://github.com/afandigit/Microsoft_Stock_Market/assets/106676180/ed5bfe04-4cb3-44ee-8b4a-b83051f4fee5" alt="Bearish" /> 
 
+</br></br></br></br></br></br></br></br></br></br>
 
-<h4></h4>
-
-<h4></h4>
-
-
-<h4></h4>
 
 
 <h2>Realization :</h2>
