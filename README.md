@@ -71,15 +71,18 @@ The study aims to develop a model using machine learning methods to <b>analyze s
         The Open and Close prices give an idea of the general market trend for the stock in question.
       </p>
       
-      <ul>
-      <li>
-          If the <strong>Close price is higher than the Open price</strong>, it is likely that the stock experienced a price increase during the trading session, indicating a bullish trend.
+
+<ul>
+    <li>
+        If the Close price is higher than the Open price, it is likely that the stock experienced a price increase during the trading session, indicating a bullish trend.
     </li>
-        <li> If the <strong>Close price is lower than the Open price</strong>, it is likely that the stock experienced a price decrease during the trading session, indicating a bearish trend.
-        </li>
-        <li>The <strong>High</strong> and <strong>Low</strong> prices give an idea of <strong>the market volatility for the stock in question</strong>. If the <i>spread</i> between the High and Low prices <strong>is large</strong>, it indicates that the stock experienced <strong>high volatility</strong> during the trading session. If the <i>spread</i> is <strong>small</strong>, it indicates that the stock experienced <strong>low volatility</strong>.
-        </li>
-      </ul>
+    <li>
+        If the Close price is lower than the Open price, it is likely that the stock experienced a price decrease during the trading session, indicating a bearish trend.
+    </li>
+    <li>
+        The High and Low prices give an idea of the market volatility for the stock in question. If the spreadbetween the High and Low prices is large, it indicates that the stock experienced high volatility during the trading session. If the spread is small, it indicates that the stock experienced low volatility.
+    </li>
+</ul>
 
 
 
@@ -144,6 +147,8 @@ I used <b><i>logarithmic differencing</i></b> to normalize data, a common techni
 then i have normilized data ...
 
 <img align="center"  width="500" src="https://github.com/afandigit/Microsoft_Stock_Market/assets/106676180/b0d5188f-8418-4124-a6dd-c60e600161d8" alt="logarithm-diff" />
+
+<b>Using again Random Forest + GridSearchCV for pre-precessed data... </b>
 
 <img align="center"  width="500" src="https://github.com/afandigit/Microsoft_Stock_Market/assets/106676180/dd1d2a7d-7c59-4a6e-889b-75b791f3548f" alt="logarithm-diff" />
 
