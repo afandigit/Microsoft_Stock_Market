@@ -5,7 +5,7 @@
 <img align="left"  width="300" src="https://github.com/afandigit/Microsoft_Stock_Market/assets/106676180/c9649078-26cf-4066-a6bd-801e81eb03ed" alt="stock market" /> 
 
 </br></br></br></br></br></br></br></br></br></br></br></br></br></br></br>
-
+</br></br></br></br></br></br></br></br>
 
 <h2>Goal :</h2>
 
