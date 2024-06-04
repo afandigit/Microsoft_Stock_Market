@@ -4,7 +4,7 @@
 <img align="right"  width="300" src="https://github.com/afandigit/Microsoft_Stock_Market/assets/106676180/23d0bcb7-718c-47b9-b111-c82d38e86aab" alt="stock market" />
 <img align="left"  width="300" src="https://github.com/afandigit/Microsoft_Stock_Market/assets/106676180/c9649078-26cf-4066-a6bd-801e81eb03ed" alt="stock market" /> 
 
-</br></br></br></br></br></br></br></br></br></br></br></br></br></br>
+</br></br></br></br></br></br></br></br></br></br>
 
 
 <h2>Goal :</h2>
@@ -111,11 +111,11 @@ In the image bellow, I create another column <i>'Target'</i> that specify <b>if 
 
 
 <img align="center"  width="600" src="https://github.com/afandigit/Microsoft_Stock_Market/assets/106676180/14047347-9865-4747-8504-d7a35fad27ee" alt="data labeling" /> 
-
+</br></br>
 This target is made by the current period but we want to predict for the next period, will it be bullish or bearish?
 
 <img align="center"  width="600" src="https://github.com/afandigit/Microsoft_Stock_Market/assets/106676180/e203f5a0-4597-40b4-ba66-36d957030d81" alt="data labeling" /> 
-
+</br></br>
 So for this we had to shift all these values ​​up so that each period will have a new target value which says that the next trading period will be bullish or bearish.
 
 <b>Next Step i train Machine learning and deep learning models to predict for new data if we gonna stay on the market or not.</b>
@@ -123,12 +123,12 @@ So for this we had to shift all these values ​​up so that each period will h
 <b>Using Random Forest ... </b>
 
 <img align="center"  width="500" src="https://github.com/afandigit/Microsoft_Stock_Market/assets/106676180/582e661d-5b07-460f-a546-14bea199161f" alt="rf" /> 
-
+</br></br>
 
 <b>Using Random Forest + GridSearchCV... </b>
 
 <img align="center"  width="500" src="https://github.com/afandigit/Microsoft_Stock_Market/assets/106676180/89da954d-1ce4-42d4-b0c0-3bd9477542c3" alt="rf-gridsearchcv" /> 
-
+</br></br>
 we notice that the results were improved ...
 
 
@@ -137,25 +137,25 @@ we notice that the results were improved ...
 I Calculated the logarithmic difference between consecutive prices ... 
 
 <img align="center"  width="500" src="https://github.com/afandigit/Microsoft_Stock_Market/assets/106676180/2a97fd1c-1d15-45b5-aea2-79518c0f827d" alt="rf-gridsearchcv-fe" /> 
-
+</br></br>
 <p>
 I used <b><i>logarithmic differencing</i></b> to normalize data, a common technique in financial analysis to visualize price variations in percentage terms using relative values. </br></br></br>Logarithmic differencing is useful for data with increasing trends over time, such as stock price data. </br>It involves taking the natural logarithm of each price value, then calculating the difference between consecutive values to compute relative growth rates between periods. This method helps visualize stock price growth trends for better understanding of price changes, even with significant long-term increases. It enables easy comparison of growth trends between different stocks or periods.
 </p>
 
 <img align="center"  width="500" src="https://github.com/afandigit/Microsoft_Stock_Market/assets/106676180/de35b3c6-dd4b-4c50-b9e8-28d2ac4970d3" alt="logarithm-diff" />
-
+</br></br>
 then i have normilized data ...
 
 <img align="center"  width="500" src="https://github.com/afandigit/Microsoft_Stock_Market/assets/106676180/b0d5188f-8418-4124-a6dd-c60e600161d8" alt="logarithm-diff" />
-
+</br></br>
 <b>Using again Random Forest + GridSearchCV for pre-precessed data... </b>
 
 <img align="center"  width="500" src="https://github.com/afandigit/Microsoft_Stock_Market/assets/106676180/dd1d2a7d-7c59-4a6e-889b-75b791f3548f" alt="logarithm-diff" />
-
+</br></br>
 <b>Then i deploy the model to TELL US ... WHETHER STAY OR EXIT THE MARKET :) </b>
 
 <img align="center"  width="600" src="https://github.com/afandigit/Microsoft_Stock_Market/assets/106676180/9fe54d25-0beb-482c-9130-3d46277f928f" alt="deploy" />
-
+</br></br>
 
 
 
