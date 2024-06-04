@@ -1,8 +1,12 @@
 <h1> Microsoft_Stock_Market </h1>
 <h2> Using Python and Time Series Applications to analyze and predict stock market trends </h2>
 
-<img align="right"  width="450" src="https://github.com/afandigit/Microsoft_Stock_Market/assets/106676180/23d0bcb7-718c-47b9-b111-c82d38e86aab" alt="stock market" /> 
-<img align="left"  width="450" src="https://github.com/afandigit/Microsoft_Stock_Market/assets/106676180/c9649078-26cf-4066-a6bd-801e81eb03ed" alt="stock market" /> 
+<img align="right"  width="400" src="https://github.com/afandigit/Microsoft_Stock_Market/assets/106676180/23d0bcb7-718c-47b9-b111-c82d38e86aab" alt="stock market" /> 
+<img align="left"  width="400" src="https://github.com/afandigit/Microsoft_Stock_Market/assets/106676180/c9649078-26cf-4066-a6bd-801e81eb03ed" alt="stock market" /> 
+
+</br>
+</br>
+</br>
 
 <h2>Goal :</h2>
 The study aims to develop a model using machine learning methods to <b>analyze stock trading risks</b> and <b>make informed decisions</b> on <b>whether to stay in the market or exit</b>, essentially determining whether to buy or sell stocks.
@@ -12,7 +16,9 @@ The study aims to develop a model using machine learning methods to <b>analyze s
 
 <p>I have used data from Yahoo MSFT stock (Microsoft Corporation) from 1986/03/14 to 2022/12/20.</p>	
 
-<table> <thead> <tr> <th>Date</th> <th>Open</th> <th>High</th> <th>Low</th> <th>Close</th> <th>Adj Close</th> <th>Volume</th> </tr> </thead> <tbody> <tr> <td>1986-03-14</td> <td>0.097222</td> <td>0.102431</td> <td>0.097222</td> <td>0.100694</td> <td>0.062980</td> <td>308160000</td> </tr> <tr> <td>1986-03-17</td> <td>0.100694</td> <td>0.103299</td> <td>0.100694</td> <td>0.102431</td> <td>0.064067</td> <td>133171200</td> </tr> <tr> <td>1986-03-18</td> <td>0.102431</td> <td>0.103299</td> <td>0.098958</td> <td>0.099826</td> <td>0.062437</td> <td>67766400</td> </tr> <tr> <td>1986-03-19</td> <td>0.099826</td> <td>0.100694</td> <td>0.097222</td> <td>0.098090</td> <td>0.061351</td> <td>47894400</td> </tr> <tr> <td>1986-03-20</td> <td>0.098090</td> <td>0.098090</td> <td>0.094618</td> <td>0.095486</td> <td>0.059723</td> <td>58435200</td> </tr> <!-- Ajoutez ici d'autres lignes de données si nécessaire --> <tr> <td>2022-12-13</td> <td>261.690002</td> <td>263.920013</td> <td>253.070007</td> <td>256.920013</td> <td>256.920013</td> <td>42196900</td> </tr> <tr> <td>2022-12-14</td> <td>257.130005</td> <td>262.589996</td> <td>254.309998</td> <td>257.220001</td> <td>257.220001</td> <td>35410900</td> </tr> <tr> <td>2022-12-15</td> <td>253.720001</td> <td>254.199997</td> <td>247.339996</td> <td>249.009995</td> <td>249.009995</td> <td>35560400</td> </tr> <tr> <td>2022-12-16</td> <td>248.550003</td> <td>249.839996</td> <td>243.509995</td> <td>244.690002</td> <td>244.690002</td> <td>86088100</td> </tr> <tr> <td>2022-12-19</td> <td>244.860001</td> <td>245.210007</td> <td>238.710007</td> <td>240.449997</td> <td>240.449997</td> <td>29668800</td> </tr> </tbody> </table>
+<table> <thead> <tr> <th>Date</th> <th>Open</th> <th>High</th> <th>Low</th> <th>Close</th> <th>Adj Close</th> <th>Volume</th> </tr> </thead> <tbody> <tr> <td>1986-03-14</td> <td>0.097222</td> <td>0.102431</td> <td>0.097222</td> <td>0.100694</td> <td>0.062980</td> <td>308160000</td> </tr> <tr> <td>1986-03-17</td> <td>0.100694</td> <td>0.103299</td> <td>0.100694</td> <td>0.102431</td> <td>0.064067</td> <td>133171200</td> </tr> <tr> <td>1986-03-18</td> <td>0.102431</td> <td>0.103299</td> <td>0.098958</td> <td>0.099826</td> <td>0.062437</td> <td>67766400</td> </tr> <tr> <td>1986-03-19</td> <td>0.099826</td> <td>0.100694</td> <td>0.097222</td> <td>0.098090</td> <td>0.061351</td> <td>47894400</td> </tr> <tr> <td>1986-03-20</td> <td>0.098090</td> <td>0.098090</td> <td>0.094618</td> <td>0.095486</td> <td>0.059723</td> <td>58435200</td> </tr> 
+    <tr> <td> .... </td> <td> .... </td> <td> .... </td> <td> .... </td> <td> .... </td> <td> .... </td> <td> .... </td> </tr>
+    <tr> <td>2022-12-13</td> <td>261.690002</td> <td>263.920013</td> <td>253.070007</td> <td>256.920013</td> <td>256.920013</td> <td>42196900</td> </tr> <tr> <td>2022-12-14</td> <td>257.130005</td> <td>262.589996</td> <td>254.309998</td> <td>257.220001</td> <td>257.220001</td> <td>35410900</td> </tr> <tr> <td>2022-12-15</td> <td>253.720001</td> <td>254.199997</td> <td>247.339996</td> <td>249.009995</td> <td>249.009995</td> <td>35560400</td> </tr> <tr> <td>2022-12-16</td> <td>248.550003</td> <td>249.839996</td> <td>243.509995</td> <td>244.690002</td> <td>244.690002</td> <td>86088100</td> </tr> <tr> <td>2022-12-19</td> <td>244.860001</td> <td>245.210007</td> <td>238.710007</td> <td>240.449997</td> <td>240.449997</td> <td>29668800</td> </tr> </tbody> </table>
 
 <p>This dataset contains a date column that is organized and consecutive, we can consider this dataset as a time series dataset.</p>
 
