@@ -1,11 +1,11 @@
 <h1> Microsoft_Stock_Market </h1>
 <h2> Using Python and Time Series Applications to analyze and predict stock market trends </h2>
 
-<img align="right"  width="400" src="https://github.com/afandigit/Microsoft_Stock_Market/assets/106676180/23d0bcb7-718c-47b9-b111-c82d38e86aab" alt="stock market" /> 
-<img align="left"  width="400" src="https://github.com/afandigit/Microsoft_Stock_Market/assets/106676180/c9649078-26cf-4066-a6bd-801e81eb03ed" alt="stock market" /> 
+<img align="right"  width="300" src="https://github.com/afandigit/Microsoft_Stock_Market/assets/106676180/23d0bcb7-718c-47b9-b111-c82d38e86aab" alt="stock market" /> 
+<img align="left"  width="300" src="https://github.com/afandigit/Microsoft_Stock_Market/assets/106676180/c9649078-26cf-4066-a6bd-801e81eb03ed" alt="stock market" /> 
 
-</br></br></br></br></br>
-</br></br></br></br></br>
+</br></br></br></br></br></br></br></br></br></br></br></br></br></br></br>
+
 
 <h2>Goal :</h2>
 
@@ -41,47 +41,38 @@ The study aims to develop a model using machine learning methods to <b>analyze s
 
 <h2>Stock Price Information</h2>
 
-    <div>
-      <b>The <strong>Open</strong> Price</b>
+<b>The <strong>Open</strong> Price</b>
       <p>
-        The <strong>Open</strong> price represents <em>the price</em> at which
+        The <strong>Open</strong> price represents <i>the price</i> at which
         <strong>a stock was first traded</strong> during the current trading
         session.
       </p>
-    </div>
 
-    <div class="section">
-      <h3>2. The <strong>Close</strong> Price</h3>
+<b>The <strong>Close</strong> Price</b>
       <p>
-        The <strong>Close</strong> price represents <em>the price</em> at which
+        The <strong>Close</strong> price represents <i>the price</i> at which
         <strong>a stock was last traded</strong> during the current trading
         session.
       </p>
-    </div>
 
-    <div class="section">
-      <h3>3. The <strong>High</strong> Price</h3>
+<b>The <strong>High</strong> Price</b>
       <p>
-        The <strong>High</strong> price represents <em>the highest price</em> at
+        The <strong>High</strong> price represents <i>the highest price</i> at
         which <strong>a stock was traded</strong> during the current trading
         session.
       </p>
-    </div>
 
-    <div class="section">
-      <h3>4. The <strong>Low</strong> Price</h3>
+<b>The <strong>Low</strong> Price</b>
       <p>
-        The <strong>Low</strong> price represents <em>the lowest price</em> at
+        The <strong>Low</strong> price represents <i>the lowest price</i> at
         which <strong>a stock was traded</strong> during the current trading
         session.
       </p>
-    </div>
-
-    <div class="section">
+</br></br>
       <p>
-        The Open and Close prices give an idea of the general market trend for
-        the stock in question.
+        The Open and Close prices give an idea of the general market trend for the stock in question.
       </p>
+      
       <ul>
         <li>
           1- If the <strong>Close price is higher than the Open price</strong>,
@@ -99,18 +90,18 @@ The study aims to develop a model using machine learning methods to <b>analyze s
           <strong>the market volatility for the stock in question</strong>.
           <ul>
             <li>
-              - If the <em>spread</em> between the High and Low prices
+              - If the <i>spread</i> between the High and Low prices
               <strong>is large</strong>, it indicates that the stock experienced
               <strong>high volatility</strong> during the trading session.
             </li>
             <li>
-              - If the <em>spread</em> is <strong>small</strong>, it indicates
+              - If the <i>spread</i> is <strong>small</strong>, it indicates
               that the stock experienced <strong>low volatility</strong>.
             </li>
           </ul>
         </li>
       </ul>
-    </div>
+
 
 
 <h4>Bullish Trand Vs. Bearish Trand</h4>
