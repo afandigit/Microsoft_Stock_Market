@@ -1,10 +1,10 @@
 <h1> Microsoft_Stock_Market </h1>
 <h2> Using Python and Time Series Applications to analyze and predict stock market trends </h2>
 
-<img align="right"  width="300" src="https://github.com/afandigit/Microsoft_Stock_Market/assets/106676180/23d0bcb7-718c-47b9-b111-c82d38e86aab" alt="stock market" /> 
+<img align="right"  width="300" src="https://github.com/afandigit/Microsoft_Stock_Market/assets/106676180/23d0bcb7-718c-47b9-b111-c82d38e86aab" alt="stock market" />
 <img align="left"  width="300" src="https://github.com/afandigit/Microsoft_Stock_Market/assets/106676180/c9649078-26cf-4066-a6bd-801e81eb03ed" alt="stock market" /> 
 
-</br></br></br></br></br></br></br></br></br></br></br></br></br></br></br>
+</br></br></br></br></br></br></br></br></br></br>
 </br></br></br></br></br></br></br></br>
 
 <h2>Goal :</h2>
@@ -72,26 +72,16 @@ The study aims to develop a model using machine learning methods to <b>analyze s
       </p>
       
       <ul>
-        <li>
-          1- If the <strong>Close price is higher than the Open price</strong>,
-          it is likely that the stock experienced a price increase during the
-          trading session, indicating a bullish trend.
+      <li>
+          If the <strong>Close price is higher than the Open price</strong>, it is likely that the stock experienced a price increase during the trading session, indicating a bullish trend.
+    </li>
+        <li> If the <strong>Close price is lower than the Open price</strong>, it is likely that the stock experienced a price decrease during the trading session, indicating a bearish trend.
         </li>
-        <li>
-          2- If the <strong>Close price is lower than the Open price</strong>,
-          it is likely that the stock experienced a price decrease during the
-          trading session, indicating a bearish trend.
-        </li>
-        <li>
-          3- The <strong>High</strong> and <strong>Low</strong> prices give an
-          idea of
-          <strong>the market volatility for the stock in question</strong>.
-
-          - If the <i>spread</i> between the High and Low prices
+        <li>The <strong>High</strong> and <strong>Low</strong> prices give an idea of <strong>the market volatility for the stock in question</strong>.
+        - If the <i>spread</i> between the High and Low prices
               <strong>is large</strong>, it indicates that the stock experienced
               <strong>high volatility</strong> during the trading session.
-              
-          - If the <i>spread</i> is <strong>small</strong>, it indicates
+        - If the <i>spread</i> is <strong>small</strong>, it indicates
               that the stock experienced <strong>low volatility</strong>.
         </li>
       </ul>
@@ -100,11 +90,11 @@ The study aims to develop a model using machine learning methods to <b>analyze s
 
 <h4>Bullish Trand Vs. Bearish Trand</h4>
 
-<img align="left"  width="450" src="https://github.com/afandigit/Microsoft_Stock_Market/assets/106676180/7dc44d40-60e8-4227-9f73-489c52ffd799" alt="bullish" /> 
+<img align="left"  width="350" src="https://github.com/afandigit/Microsoft_Stock_Market/assets/106676180/7dc44d40-60e8-4227-9f73-489c52ffd799" alt="bullish" /> 
 
-<img align="right"  width="450" src="https://github.com/afandigit/Microsoft_Stock_Market/assets/106676180/ed5bfe04-4cb3-44ee-8b4a-b83051f4fee5" alt="Bearish" /> 
+<img align="right"  width="350" src="https://github.com/afandigit/Microsoft_Stock_Market/assets/106676180/ed5bfe04-4cb3-44ee-8b4a-b83051f4fee5" alt="Bearish" /> 
 
-</br></br></br></br></br></br></br></br></br></br>
+</br></br></br></br></br></br></br></br></br></br></br></br></br></br>
 
 
 
