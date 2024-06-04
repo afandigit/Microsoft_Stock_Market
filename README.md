@@ -4,8 +4,8 @@
 <img align="right"  width="300" src="https://github.com/afandigit/Microsoft_Stock_Market/assets/106676180/23d0bcb7-718c-47b9-b111-c82d38e86aab" alt="stock market" />
 <img align="left"  width="300" src="https://github.com/afandigit/Microsoft_Stock_Market/assets/106676180/c9649078-26cf-4066-a6bd-801e81eb03ed" alt="stock market" /> 
 
-</br></br></br></br></br></br></br></br></br></br>
-</br></br></br></br></br></br></br></br>
+</br></br></br></br></br></br></br></br></br></br></br></br></br></br>
+
 
 <h2>Goal :</h2>
 
@@ -77,12 +77,7 @@ The study aims to develop a model using machine learning methods to <b>analyze s
     </li>
         <li> If the <strong>Close price is lower than the Open price</strong>, it is likely that the stock experienced a price decrease during the trading session, indicating a bearish trend.
         </li>
-        <li>The <strong>High</strong> and <strong>Low</strong> prices give an idea of <strong>the market volatility for the stock in question</strong>.
-        - If the <i>spread</i> between the High and Low prices
-              <strong>is large</strong>, it indicates that the stock experienced
-              <strong>high volatility</strong> during the trading session.
-        - If the <i>spread</i> is <strong>small</strong>, it indicates
-              that the stock experienced <strong>low volatility</strong>.
+        <li>The <strong>High</strong> and <strong>Low</strong> prices give an idea of <strong>the market volatility for the stock in question</strong>. If the <i>spread</i> between the High and Low prices <strong>is large</strong>, it indicates that the stock experienced <strong>high volatility</strong> during the trading session. If the <i>spread</i> is <strong>small</strong>, it indicates that the stock experienced <strong>low volatility</strong>.
         </li>
       </ul>
 
